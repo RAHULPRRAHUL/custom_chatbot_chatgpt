@@ -7,7 +7,7 @@ from gpt_index import GPTSimpleVectorIndex
 import gradio as gr
 
 
-os.environ["OPENAI_API_KEY"] = 'sk-aYtJiuEi' # api ket
+os.environ["OPENAI_API_KEY"] = 'sk-aYtJiuEi' # api key
 
 
 def generate_pdf(doc_path, path):
